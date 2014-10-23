@@ -1,8 +1,8 @@
 Compile Instructions:
 
-I've been using IntelliJ to compile the code. There are two UDTF's here,
-StringUniqueID and WebMat. I only figured out how to compile one at a time. To
-compile one of the programs open up pom.xml and change the <mainClass> tag to
+
+There are two UDTF's here, StringUniqueID and WebMat. To compile one of the 
+programs in IntelliJ, open up pom.xml and change the <mainClass> tag to 
 whichever java file you want to compile. Then go into View -> Tool Windows ->
 Maven Projects. Under Plugins -> compiler run compiler:compile and then under
 assembly run assembly:single. This should create the jar file.
